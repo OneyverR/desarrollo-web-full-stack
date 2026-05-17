@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d68824f-79e4-4fa8-8361-76d0b90ef54d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/contacto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-02-HTML5-Formularios-y-Accesibilidad/contacto_EX.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-02-HTML5-Formularios-y-Accesibilidad/sesion.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-02-HTML5-Formularios-y-Accesibilidad/sesion.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778966206393</updated>
       <workItem from="1778966207381" duration="12392000" />
-      <workItem from="1779043942520" duration="4823000" />
+      <workItem from="1779043942520" duration="6799000" />
     </task>
     <servers />
   </component>
