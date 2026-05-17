@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Esta pagina es un formulario de contacto para el sitio web del portafolio de desarrollo web de Oneyver Rodriguez. Aquí puedes enviar tus consultas, comentarios o solicitudes de información.">
+	<title>Formulario de Contacto</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Formulario de Contacto</h1>
+	</header>
+	<main>
+		<form action="/contacto" method="POST">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<div class="campo">
+					<label for="nombre">Nombre Completo</label>
+					<input
+							type="text"
+							id="nombre"
+							name="nombre"
+							minlength="3"
+							autocomplete="name"
+							required
+							aria-describedby="nombre-ayuda"
+					>
+					<span id="nombre-ayuda">Ingresa tu nombre. Mínimo 3 caracteres</span>
+				</div>
+				<div class="campo">
+					<label for="email">Correo Electrónico</label>
+					<input
+							type="email"
+							id="email"
+							name="email"
+							autocomplete="email"
+							required
+							aria-describedby="email-ayuda"
+					>
+					<span id="email-ayuda">Ingresa tu correo electrónico</span>
+				</div>
+				<div class="campo">
+					<label for="asunto">Asunto</label>
+					<select name="asunto" id="asunto" required>
+						<option value="">--Selecciona un asunto--</option>
+						<option value="consulta">Consulta</option>
+						<option value="proyecto">Proyecto</option>
+						<option value="otro">Otro</option>
+					</select>
+				</div>
+				<div class="campo">
+					<label for="mensaje">Mensaje</label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10" aria-describedby="mensaje-ayuda" required></textarea>
+					<span id="mensaje-ayuda">Ingresa el mensaje que desees enviar</span>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Términos y condiciones</legend>
+				<div class="campo">
+					<input
+							type="checkbox"
+							id="terminos"
+							name="terminos"
+							required
+							aria-describedby="terminos-ayuda"
+					>
+					<label for="terminos">Términos y condiciones.</label>
+					<span id="terminos-ayuda">Al seleccionar esta opcion, aceptas lo terminos y condiciones definidas
+						para el envío de la información en este formulario</span>
+				</div>
+			</fieldset>
+			<button type="submit">Enviar Información</button>
+		</form>
+	</main>
+	<footer>
+		<p>Oneyver Rodríguez - 2026</p>
+	</footer>
+</body>
+</html>

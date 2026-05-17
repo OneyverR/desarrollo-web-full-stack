@@ -1,0 +1,188 @@
+<!Doctype html>
+<html lang="ES">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Formulario de contacto para el sitio web">
+	<title>Formulario de contacto</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Formulario de Contacto</h1>
+	</header>
+	<main>
+		<form action="/contacto" method="POST">
+			<fieldset>
+				<legend>Datos de Contacto</legend>
+				<div class="campo">
+					<label for="nombre">Nombre</label>
+					<input
+							type ="text"
+							id ="nombre"
+							name ="nombre"
+							aria-label="Nombre completo"
+0							pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{3,}"
+							placeholder="Ejemplo: Juan Pérez"
+							required
+							autocomplete="name"
+							aria-describedby="nombre-ayuda"
+					/>
+					<span id="nombre-ayuda">Ingrese su nombre completo</span>
+				</div>
+				<div class="campo">
+					<label for="email">Correo Electrónico</label>
+					<input
+							type="email"
+							id ="email"
+							name="email"
+							placeholder="Ejemplo: correo@correo.com"
+							required
+							autocomplete="email"
+							aria-describedby="email-ayuda"
+					/>
+					<span id="email-ayuda">Ingrese una dirección de correo válida</span>
+				</div>
+				<div class="campo">
+					<label for="telefono">Teléfono</label>
+					<input
+						type="tel"
+						id="telefono"
+						name="telefono"
+						minlength="10"
+						maxlength="12"
+						autocomplete="tel"
+						aria-describedby="telefono-ayuda"
+					>
+					<span id="telefono-ayuda">Ingrese su numero de telefono actual</span>
+				</div>
+				<div class="campo">
+					<label for="red-social">Red Social</label>
+					<input
+							type="url"
+							id="red-social"
+							name="red-social"
+							autocomplete="url"
+							aria-describedby="red-social-ayuda"
+					>
+					<span id="red-social-ayuda">Ingrese la URL de su Red Social más activa</span>
+				</div>
+				<div class="campo">
+					<label for="edad">Edad</label>
+					<input
+							type="number"
+							id="edad"
+							name="edad"
+							min="1"
+							max="100"
+							step="1"
+							aria-describedby="edad-ayuda"
+					>
+					<span id="edad-ayuda">Ingrese su edad</span>
+				</div>
+				<div class="campo">
+					<label for="fecha-nacimiento">Fecha de Nacimiento</label>
+					<input
+							type="date"
+							id="fecha-nacimiento"
+							name="fecha-nacimiento"
+							aria-describedby="fecha-nacimiento-ayuda"
+					>
+					<span id="fecha-nacimiento-ayuda">Ingrese su fecha de nacimiento</span>
+				</div>
+				<div class="campo">
+					<label for="fecha-diligencia">Fecha de diligencia del formulario</label>
+					<input
+							type="datetime-local"
+							id="fecha-diligencia"
+							name="fecha-diligencia"
+							aria-describedby="fecha-diligencia-ayuda"
+					>
+					<span id="fecha-diligencia-ayuda">Ingrese la fecha y hora en que diligencio el formulario</span>
+				</div>
+				<div class="campo">
+					<label for="contraseña">Contraseña</label>
+					<input
+							type="password"
+							id="contraseña"
+							name="contraseña"
+							autocomplete="password"
+							aria-describedby="contraseña-ayuda"
+					>
+					<span id="contraseña-ayuda">Ingrese su contraseña</span>
+				</div>
+				<div class="campo">
+					<label for="terminos">Acepta Términos y condiciones</label>
+					<input
+							type="checkbox"
+							id="terminos"
+							name="terminos"
+							required
+							aria-describedby="terminos-ayuda"
+					>
+					<span id="terminos-ayuda">Debe aceptar los términos y condiciones para enviar el formulario</span>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Nivel de Experiencia</legend>
+				<label  for="junior">Junior</label>
+				<input
+						type="radio"
+						id="junior"
+						name="nivel"
+						value="junior"
+				>
+				<label for="senior">Senior</label>
+				<input
+						type="radio"
+						id="senior"
+						name="senior"
+						value="senior"
+				>
+			</fieldset>
+			<label for="pais"></label>
+			<select name="pais" id="pais" required>
+				<option value="">-- Selecciona tu país --</option>
+				<option value="ve">Venezuela</option>
+				<option value="co">Colombia</option>
+				<option value="ar">Argentina</option>
+			</select>
+			<div class="campo">
+				<label for="mensaje"></label>
+				<textarea id="mensaje" name="mensaje" rows="4" cols="5"></textarea>
+			</div>
+			<div class="campo">
+				<label for="documento">Documento de Identidad</label>
+				<input
+						type="file"
+						accept=".pdf, .docx"
+						id="documento"
+						name="documento"
+				>
+			</div>
+			<div class="buscar">
+				<label for="buscar">Buscar</label>
+				<input
+						type="search"
+						id="buscar"
+						name="buscar"
+				>
+			</div>
+			<div class="color">
+				<label for="color">Color</label>
+				<input
+						type="color"
+						id="color"
+						name="color"
+				>
+			</div>
+			<button type="submit">Enviar Mensaje</button>
+			<button type="button"> Boton tipo Buttom</button>
+			<button type="reset">Reset Buttom</button>
+		</form>
+	</main>
+	<footer>
+	
+	</footer>
+</body>
+</html>
