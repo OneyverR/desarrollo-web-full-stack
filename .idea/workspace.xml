@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d68824f-79e4-4fa8-8361-76d0b90ef54d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-03-SEO-Basico-y-Meta-Tags/sesion.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-03-SEO-Basico-y-Meta-Tags/sesion.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
           <session>
             <option name="chatType" value="PANEL" />
             <option name="id" value="34a0a3fd-3f5a-4183-aaf3-225f0754da8b" />
-            <option name="modeId" value="Agent" />
+            <option name="modeId" value="Ask" />
             <option name="modelType" value="builtin_family" />
             <option name="modelValue" value="auto" />
             <option name="status" value="Completed" />
@@ -163,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1778966206393</updated>
       <workItem from="1778966207381" duration="12392000" />
-      <workItem from="1779043942520" duration="6799000" />
+      <workItem from="1779043942520" duration="12768000" />
     </task>
     <servers />
   </component>
