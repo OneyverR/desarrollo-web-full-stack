@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-texto: #0D530E;
+    --color-fondo: #F9F9F9;
+}
+body{
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+#presentacion-personal{
+    padding: 30px;
+}
+#proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 30px;
+}
+#proyectos article{
+    flex: 1;
+    min-width: 280px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}

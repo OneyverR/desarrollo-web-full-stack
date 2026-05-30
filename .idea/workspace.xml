@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d68824f-79e4-4fa8-8361-76d0b90ef54d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-03-SEO-Basico-y-Meta-Tags/sesion.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-01-HTML5/Dia-03-SEO-Basico-y-Meta-Tags/sesion.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Proyecto-Final-Portafolio/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-02-CSS-Moderno/Dia-04-Flexbox/sesion.md" beforeDir="false" afterPath="$PROJECT_DIR$/Fase-01-Fundamentos-Web/Semana-02-CSS-Moderno/Dia-04-Flexbox/sesion.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +17,7 @@
   <component name="CopilotChats">
     <option name="panelChat">
       <chat>
-        <option name="activeSessionId" value="da953741-4a79-45a4-8fbb-be59ac8783c6" />
+        <option name="activeSessionId" value="34a0a3fd-3f5a-4183-aaf3-225f0754da8b" />
         <option name="sessions">
           <session>
             <option name="chatType" value="PANEL" />
@@ -84,6 +84,65 @@
     &quot;accountId&quot;: &quot;a75a617a-95a9-4575-880d-7e7e7e7d971b&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000002" />
+      <entry key="S2" value="1.0001254744605488" />
+      <entry key="S5" value="1.0282613959689568" />
+      <entry key="S10" value="1.193359868861001" />
+      <entry key="S30" value="1.8523790671148848" />
+      <entry key="S60" value="2.4011808125710825" />
+      <entry key="M2" value="3.9291028637268353" />
+      <entry key="M5" value="9.74327304612192" />
+      <entry key="M10" value="17.947499627093038" />
+      <entry key="M15" value="25.206506498214864" />
+      <entry key="M30" value="40.51992124675647" />
+      <entry key="H1" value="54.66727631604272" />
+      <entry key="H2" value="64.53693163416425" />
+      <entry key="H4" value="70.40173882775795" />
+      <entry key="D1" value="75.84526887861726" />
+      <entry key="W1" value="76.83363412528972" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.6897713249289174E-211" />
+      <entry key="MS500" value="7.0075400280459305E-43" />
+      <entry key="S2" value="2.8936060637156145E-11" />
+      <entry key="S5" value="6.248362554533487E-5" />
+      <entry key="S10" value="0.009065100476576578" />
+      <entry key="S30" value="0.30686633794095897" />
+      <entry key="S60" value="0.8153237000368808" />
+      <entry key="M2" value="1.709539930364519" />
+      <entry key="M5" value="4.553382196118691" />
+      <entry key="M10" value="10.133572294974156" />
+      <entry key="M15" value="15.287917628249732" />
+      <entry key="M30" value="25.29809554933356" />
+      <entry key="H1" value="33.72124900130792" />
+      <entry key="H2" value="39.273470733267594" />
+      <entry key="H4" value="42.474100498659496" />
+      <entry key="D1" value="45.38826745974755" />
+      <entry key="W1" value="45.91199926999153" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.7845840978967508" />
+      <entry key="MS500" value="0.9526379980439376" />
+      <entry key="S2" value="0.9880672878157231" />
+      <entry key="S5" value="1.0233490107712733" />
+      <entry key="S10" value="1.1988117968824357" />
+      <entry key="S30" value="2.1494553326044055" />
+      <entry key="S60" value="3.2031366220285733" />
+      <entry key="M2" value="5.6168721439140405" />
+      <entry key="M5" value="14.261358893217931" />
+      <entry key="M10" value="28.038134282112864" />
+      <entry key="M15" value="40.45041941803554" />
+      <entry key="M30" value="65.78093956195424" />
+      <entry key="H1" value="88.36355048747501" />
+      <entry key="H2" value="103.79577148374426" />
+      <entry key="H4" value="112.86790234455364" />
+      <entry key="D1" value="121.232118814231" />
+      <entry key="W1" value="122.7454284553868" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -125,35 +184,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
       </set>
     </attachedChunks>
   </component>
@@ -165,7 +224,14 @@
       <option name="presentableId" value="Default" />
       <updated>1778966206393</updated>
       <workItem from="1778966207381" duration="12392000" />
-      <workItem from="1779043942520" duration="12768000" />
+      <workItem from="1779043942520" duration="13607000" />
+      <workItem from="1779251039657" duration="604000" />
+      <workItem from="1779332742284" duration="2756000" />
+      <workItem from="1779411855165" duration="2120000" />
+      <workItem from="1779511821340" duration="1294000" />
+      <workItem from="1780158550749" duration="105000" />
+      <workItem from="1780158681890" duration="161000" />
+      <workItem from="1780159136767" duration="4085000" />
     </task>
     <servers />
   </component>
